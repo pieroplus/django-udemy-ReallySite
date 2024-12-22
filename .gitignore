@@ -1,0 +1,8 @@
+.DS_Store
+venv/
+secrets/
+flow.md
+.private
+__pycache__/
+db.sqlite3
+migrations/

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    {% include 'mysite/snippets/head.html' %}
+  </head>
+  <body>
+    <!-- prettier-ignore -->
+    {% include 'mysite/snippets/header.html'%}
+    {% include 'mysite/snippets/messages.html'%}
+    {% block content %} {% endblock %}
+  </body>
+</html>
